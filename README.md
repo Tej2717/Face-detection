@@ -1,19 +1,15 @@
-# Face-detection
-
-
 # SA-C-GENDER-CLASSIFIER
-# Algorithm
-1.Download required modules in python.
-2.Write the code and run it
-3.Verify the output
-4.stop
-```
+## Algorithm
+1. Download necessary modules sand libraries
+2. Write the code 
+3. Predict with the test image
+4.  Run and test the code 
 
 ## Program:
-```
+```python
 """
 Program to implement 
-Developed by   : Tejaswi Gadiraju
+Developed by   : G.Tejaswi
 RegisterNumber :  212219040029
 """
 import cv2 as cv
@@ -96,21 +92,9 @@ while cv.waitKey(1) < 0:
     print("time : {:.3f}".format(time.time() - t))
 
 
-
-
 ```
 
 ## OUTPUT:
-"""
-output image :
- 
 
-<img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173241356-f4536a81-9676-4421-bff9-c29f9a6b15f6.png">
-    
-    
-   2.Demo :youtube link 
-   (https://www.youtube.com/watch?v=qYWn-6qTJZo&t=440s&ab_channel=Tejaswi)[url]
-
-    
-    
-    
+![SKILL ASSESSMENT OUTPUT](<img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173242700-b0d8bf1e-a971-47de-92a0-81deb55a80af.png">)
+[Youtube Video](https://www.youtube.com/watch?v=qYWn-6qTJZo&t=440s&ab_channel=Tejaswi)
