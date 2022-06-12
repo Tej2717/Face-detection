@@ -96,5 +96,5 @@ while cv.waitKey(1) < 0:
 
 ## OUTPUT:
 
-![<img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173242700-b0d8bf1e-a971-47de-92a0-81deb55a80af.png">](<img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173242700-b0d8bf1e-a971-47de-92a0-81deb55a80af.png">)
+![skill assessment ](https://user-images.githubusercontent.com/102372836/173242700-b0d8bf1e-a971-47de-92a0-81deb55a80af.png)
 [Youtube Video](https://www.youtube.com/watch?v=qYWn-6qTJZo&t=440s&ab_channel=Tejaswi)
