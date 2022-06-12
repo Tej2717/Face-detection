@@ -17,9 +17,6 @@ RegisterNumber :  212219040029
 */
 ```
 
-## OUTPUT:
-```
-"""
 
 # ! Import required modules
 import cv2 as cv
@@ -103,9 +100,14 @@ while cv.waitKey(1) < 0:
         cv.putText(frameFace, label, (bbox[0], bbox[1]-10), cv.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,255), 2, cv.LINE_AA)
         cv.imshow("Gender Classification", frameFace)
     print("time : {:.3f}".format(time.time() - t))
-    
-    
-    <img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173241356-f4536a81-9676-4421-bff9-c29f9a6b15f6.png">
+
+## OUTPUT:
+```
+"""
+output image :
+ 
+
+<img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173241356-f4536a81-9676-4421-bff9-c29f9a6b15f6.png">
     
     
    2.Demo :youtube link 
