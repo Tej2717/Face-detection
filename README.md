@@ -108,7 +108,8 @@ while cv.waitKey(1) < 0:
     <img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173241356-f4536a81-9676-4421-bff9-c29f9a6b15f6.png">
     
     
-    (https://www.youtube.com/watch?v=qYWn-6qTJZo&t=440s&ab_channel=Tejaswi)[url]
+   2.Demo :youtube link 
+   (https://www.youtube.com/watch?v=qYWn-6qTJZo&t=440s&ab_channel=Tejaswi)[url]
 
     
     
