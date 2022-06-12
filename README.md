@@ -95,8 +95,10 @@ while cv.waitKey(1) < 0:
 
 
 
-## OUTPUT:
+
 ```
+
+## OUTPUT:
 """
 output image :
  
