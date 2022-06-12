@@ -9,16 +9,11 @@
 4.stop
 
 ## Program:
-```
-/*
+"""
 Program to implement 
-Developed by   : G.Tejaswi
+Developed by   : Tejaswi Gadiraju
 RegisterNumber :  212219040029
-*/
-```
-
-
-# ! Import required modules
+"""
 import cv2 as cv
 import time
 import argparse
@@ -59,7 +54,6 @@ genderModel = "gender_net.caffemodel"
 MODEL_MEAN_VALUES = (78.4263377603, 87.7689143744, 114.895847746)
 genderList = ['Male', 'Female']
 
-# ! Load network
 genderNet = cv.dnn.readNet(genderModel, genderProto)
 faceNet = cv.dnn.readNet(faceModel, faceProto)
 
@@ -73,11 +67,9 @@ elif args.device == "gpu":
     genderNet.setPreferableTarget(cv.dnn.DNN_TARGET_CUDA)
     print("Using GPU device")
 
-# ! Open a video file or an image file or a camera stream
 cap = cv.VideoCapture(args.input if args.input else 0)
 padding = 20
 while cv.waitKey(1) < 0:
-    # ! Read frame
     t = time.time()
     hasFrame, frame = cap.read()
     if not hasFrame:
@@ -100,6 +92,8 @@ while cv.waitKey(1) < 0:
         cv.putText(frameFace, label, (bbox[0], bbox[1]-10), cv.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,255), 2, cv.LINE_AA)
         cv.imshow("Gender Classification", frameFace)
     print("time : {:.3f}".format(time.time() - t))
+
+
 
 ## OUTPUT:
 ```
