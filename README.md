@@ -19,10 +19,9 @@ RegisterNumber :  212219040029
 
 ## OUTPUT:
 ```
- /*
-1. CODE :
-![SKILL ASSESSMENT OUTPUT](XXX.png)
+"""
 
+# ! Import required modules
 import cv2 as cv
 import time
 import argparse
@@ -104,13 +103,13 @@ while cv.waitKey(1) < 0:
         cv.putText(frameFace, label, (bbox[0], bbox[1]-10), cv.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,255), 2, cv.LINE_AA)
         cv.imshow("Gender Classification", frameFace)
     print("time : {:.3f}".format(time.time() - t))
-    <img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173241048-ae534bf1-2f2e-4104-baaf-07d54d01c383.png">
+    
+    
+    <img width="960" alt="face detection" src="https://user-images.githubusercontent.com/102372836/173241356-f4536a81-9676-4421-bff9-c29f9a6b15f6.png">
+    
+    
+    [https://www.youtube.com/watch?v=qYWn-6qTJZo&t=440s&ab_channel=Tejaswi](url)
 
     
     
     
-    2. DEMO VIDEO YOUTUBE LINK:
-    
-    https://www.youtube.com/watch?v=qYWn-6qTJZo&t=440s&ab_channel=Tejaswi
-
-*/
