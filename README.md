@@ -7,8 +7,10 @@
 2.Write the code and run it
 3.Verify the output
 4.stop
+```
 
 ## Program:
+```
 """
 Program to implement 
 Developed by   : Tejaswi Gadiraju
